@@ -1,5 +1,6 @@
 # language-drift-visualizer
-meaning shift through sequential translation
+Meaning shift through sequential translation
+
 This Python project uses sequential machine translation to reveal how "meaning drift" happens in real time.
 
 Although semantic shift refers to meaning change over time, meaning drift happens when a semantic meaning is not exactly equivalent to a direct language translation. There are ideas, meanings, and words that can sometimes only be fully understood entirely in the language in which they originate. Direct translations often lose pieces of what things can really mean, and through this, we can allow ourselves to fully appreciate what it is to be able to speak another language
