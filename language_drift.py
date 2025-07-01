@@ -1,9 +1,9 @@
 from googletrans import Translator
 
-# Initialize the translator
+# grab my little translator # would be fun to pull from a diff translator eventually
 translator = Translator()
 
-# Define the sequence of languages to "drift" through
+# Define the sequence of languages to "drift" through 
 language_sequence = ['de', 'es', 'fr', 'en']  # German → Spanish → French → back to English
 
 def drift_translation(original_text, langs):
@@ -23,9 +23,9 @@ def drift_translation(original_text, langs):
     return drifted_texts
 
 if __name__ == "__main__":
-    print("🌍 Language Drift Visualizer")
+    print(" Language Drift Visualizer")
     user_input = input("Enter a sentence in English: ")
 
-    print("\n🔁 Translating across languages...\n")
+    print("\n Translating across languages...\n")
     drift_translation(user_input, language_sequence)
 
